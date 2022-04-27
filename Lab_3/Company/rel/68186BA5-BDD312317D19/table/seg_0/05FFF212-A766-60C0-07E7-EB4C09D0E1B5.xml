@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05FFF212-A766-60C0-07E7-EB4C09D0E1B5" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="PROJECT_STATUS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PROJECT_STATUS</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PS_ID" id="997DFA6E-8BFB-344B-8CAB-E7A804FEBEF3">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECT_STATUS</sourceObjSchema>
+<sourceObjName>PS_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="ED9AD4C5-6AD7-FCAB-4A96-CD0A60489F97">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECT_STATUS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B80D70D-9F57-ED10-8415-E6BD9B8A021D" name="PS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="997DFA6E-8BFB-344B-8CAB-E7A804FEBEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AE92F54-564C-B199-D310-9DB80F497D2C" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="PS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="997DFA6E-8BFB-344B-8CAB-E7A804FEBEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

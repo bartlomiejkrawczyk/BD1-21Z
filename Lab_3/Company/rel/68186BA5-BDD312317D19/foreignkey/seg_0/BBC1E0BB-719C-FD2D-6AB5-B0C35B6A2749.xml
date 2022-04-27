@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBC1E0BB-719C-FD2D-6AB5-B0C35B6A2749" containerWithKeyObject="0E77B61F-24A1-7011-23FF-10D97FD6D6E7" localFKIndex="9B817E8D-BCE0-EFEB-08F5-717604DE2F61" name="SYS_C00272498">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>SYS_C00272498</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<referredTableLongName>BKRAWCZ1.PROJECTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A8601B0-7784-235E-C526-A7B71504FA4A</referredTableID>
+<keyObject>FB323206-EE4F-40A8-A000-5F57DB4B8546</keyObject>
+<referredKeyID>FB323206-EE4F-40A8-A000-5F57DB4B8546</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PROJECT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

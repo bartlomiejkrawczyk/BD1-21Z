@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPARTMENTS" directorySegmentName="seg_0" id="784814AA-1840-6702-F750-307FD36BC02D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>36125529-A9CC-2BFA-C4AE-47E8DACE5EB0</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADDRESS_ID" id="3AAE927A-9603-60E7-E356-B74EBF6358D1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTABLISHED" id="4344054C-6E6D-EACE-F73B-5EA3C307BA9E">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="512128BB-046D-529A-A5EF-60C73577F74D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="5243BA71-9CC6-77EA-1E8D-4C00969BAF32">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="7434356A-CF67-10AF-BCFE-DDC27B216F3D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACT_NUMBER" id="822E5ABB-0DD4-87F0-6006-DF09F806C193">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR_BUDGET" id="AB443334-1541-3289-2C5E-7FB031BE971E">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEP_PK" id="A05B31B3-D946-93D5-5B70-B689FE70AAF4">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEP_EMP_FK" id="282A52CE-69F2-1EB3-B9CD-BD7D596E4DA2">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:41 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEP_ADDR_FK" id="CB6BBA57-DF0B-DCDD-B04B-3A2C4E6D3BB5">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:41 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEP_PK" id="7476C0AB-6646-70ED-4E1A-C9125F14BF6C">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<existingIndex>A05B31B3-D946-93D5-5B70-B689FE70AAF4</existingIndex>
+<indexSegment>8090B583-6CAE-174B-D419-08886847537D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84D49DA8-4CD3-9027-BF2F-B5FDE9DA6334" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="EMP_STATUS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_STATUS</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATUS_ID" id="F090A8FD-596F-3AE1-91E3-6DEC1B2167D9">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_STATUS</sourceObjSchema>
+<sourceObjName>STATUS_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="59E8399F-2C04-EA30-BA44-0C264639F318">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_STATUS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2371ED7-EE5E-4CB1-EA04-2BF963738BCF" name="EMP_STATUS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_STATUS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F090A8FD-596F-3AE1-91E3-6DEC1B2167D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1951BB3-2016-2293-5210-4321AF5506D3" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="EMP_STATUS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_STATUS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F090A8FD-596F-3AE1-91E3-6DEC1B2167D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

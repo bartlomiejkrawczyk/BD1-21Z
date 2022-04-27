@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A074EC6-0528-203E-6C25-7F23322AB3F0" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="ADDRESSES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>ADDRESSES</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADDRESS_ID" id="643A5DA3-1898-646C-EF36-EFF5CBAD5DFB">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="STREET" id="429E2591-771F-8FFE-8094-DB3D752A5A40">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>STREET</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="A1E89607-E60D-7FD7-A9C3-8EC2A69579C4">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>POSTAL_CODE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="7CC9CCA8-DC37-3237-5A6F-3FF7ED9A436B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="AE264E19-B5E7-6E78-9220-310472FB8C62">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD4DF96D-E5BF-772D-51DB-C219326E8035" referredColumn="9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="263583D4-7622-25FE-66EB-040922528A75" name="ADDR_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>ADDR_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:22 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="643A5DA3-1898-646C-EF36-EFF5CBAD5DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="402585CE-C7ED-4F72-4476-D9F5D9E58C03" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="ADDR_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>ADDR_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="643A5DA3-1898-646C-EF36-EFF5CBAD5DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9917FDF-D4DA-8C4C-69BF-CB174C0CAFF5" name="ADDR_COUNTRY_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:25 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE264E19-B5E7-6E78-9220-310472FB8C62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

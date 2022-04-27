@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA85C24-D6F4-8F2E-FF77-8732C9DDF4C4" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="COUNTRIES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>COUNTRIES</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="C212C448-BD42-68AA-CBDA-78A52322D4C0">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPITAL" id="DAF81606-98FB-C162-298E-810FF0702E6D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>CAPITAL</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POPULATION" id="37D3F2B3-68EA-9E43-2D9F-B944111F098B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>POPULATION</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<constraintName>COUNTRIES_POP_CHECK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="population &gt; 0 "/>
+<implementationDef dbType="Oracle Database 12cR2" definition="population &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE" id="5DED5E1A-C347-9ACA-7129-4C383BAE3248">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>LANGUAGE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY" id="8C8B4B3F-BF7C-9EE0-4B26-D9BFEEC593F5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>CURRENCY</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMAIN" id="36E35D9B-F540-2879-5BA0-3860F026CC34">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>DOMAIN</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="79479D91-F0FC-3882-06A7-439277F97F24">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_CODE" id="3DD3AA54-5CBE-2F5A-0563-6166ED243032">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>PHONE_CODE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E5E634A-D8B7-2AB6-C580-00B6A401B575" name="COUNTRIES_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>COUNTRIES_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B0FBD9E-37A0-0EFB-D355-B36B4BD22CE2" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="COUNTRIES_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>COUNTRIES_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

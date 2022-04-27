@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A8601B0-7784-235E-C526-A7B71504FA4A" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="PROJECTS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PROJECTS</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:13 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_ID" id="4A75A585-9F0A-1D9F-9A06-8AB33B4CAB6C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>PROJECT_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="2895B0C2-51D0-4B90-FE4A-BA59AEB75779">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="875A7DDC-57B3-FCED-6AE9-15F8FA4BC48A">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F13523B4-8278-8196-B298-7C34801DA0E8" referredColumn="997DFA6E-8BFB-344B-8CAB-E7A804FEBEF3"/>
+</associations>
+</Column>
+<Column name="OWNER" id="DE4B1342-7557-7FEA-F15E-9E536E5E615D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>OWNER</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1496753-34C3-71A2-5651-3365DD535E44" referredColumn="5243BA71-9CC6-77EA-1E8D-4C00969BAF32"/>
+</associations>
+</Column>
+<Column name="ESTIMATED_BUDGET" id="6A3CF36A-83F8-84F4-D601-E2CA98D4556D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>ESTIMATED_BUDGET</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USED_BUDGET" id="B9DC0BD5-E60B-6898-DC8E-8C758ABB949D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>USED_BUDGET</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START" id="0778C4C0-CCEA-2515-3DD9-1C74F65E5A0B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>DATE_START</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END" id="642A69C3-D942-56AF-4F9D-59C167BC8D61">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>PROJECTS</sourceObjSchema>
+<sourceObjName>DATE_END</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB323206-EE4F-40A8-A000-5F57DB4B8546" name="PROJECTS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PROJECTS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A75A585-9F0A-1D9F-9A06-8AB33B4CAB6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA5524B6-0CEA-4580-7ADE-1248B615E23D" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="PROJECTS_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PROJECTS_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A75A585-9F0A-1D9F-9A06-8AB33B4CAB6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D66F05FD-FC4B-14E2-F50B-B51E56BABBB2" name="SYS_C00272492">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="875A7DDC-57B3-FCED-6AE9-15F8FA4BC48A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D9F78B4-142F-97E0-ECD0-D68AF16DFE42" name="SYS_C00272493">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE4B1342-7557-7FEA-F15E-9E536E5E615D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="769CFFF5-3D64-F272-97EB-34C5578FAF68" name="Country">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:43:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6FCA4422-B8B0-87CA-12EA-E71AC12B00A1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:43:58 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="FF24F6C3-3098-44C9-698F-1B5D995FFD15">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:44:18 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E4D2CC2-EB71-EC17-0C7A-427643139A1A" name="Country_id_UN">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:44:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>6FCA4422-B8B0-87CA-12EA-E71AC12B00A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

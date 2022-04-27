@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9BA1FFF-C388-195C-447E-AE880C9DA149" containerWithKeyObject="0EB98F23-418D-638B-F8E2-7002EEBF8386" localFKIndex="F4D8010F-2D1E-4995-A74B-A97F9F5B095A" name="Locations_Countries_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>0576740D-7978-9E00-99C2-BB21C93F9361</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<referredTableLongName>Countries</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A1F3CF5-90E8-D93E-961C-8CD9E706A30C</referredTableID>
+<keyObject>15586333-6F1D-D43C-2E1F-E31285DC3086</keyObject>
+<referredKeyID>15586333-6F1D-D43C-2E1F-E31285DC3086</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>country_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

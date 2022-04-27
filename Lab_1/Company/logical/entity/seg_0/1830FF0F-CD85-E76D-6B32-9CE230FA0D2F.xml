@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1830FF0F-CD85-E76D-6B32-9CE230FA0D2F" name="Relation Employee Position">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:40:16 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DF8D81B5-7962-0371-6070-53D09CB9F88E">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:54:29 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start" id="28F3B6D0-75BE-DE47-6133-818FBAFC6EE3">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:54:49 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end" id="4365949D-F0DF-83A7-9057-1A094E83F9B0">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:55:00 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sallary" id="4493274A-DD18-C264-D84B-126D27B34C36">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:55:13 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee Employee ID2" id="7AC8ED4A-C696-FB75-3283-4EA9BF4E9AEC">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 09:39:29 UTC</createdTime>
+<generatorID>300DF694-6836-DDE2-4A1B-4173B745DF22</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BD9AF7B-E779-4F42-DB50-FD432146922E" name="Relation_Employee_Position_id_UN">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 08:55:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>DF8D81B5-7962-0371-6070-53D09CB9F88E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

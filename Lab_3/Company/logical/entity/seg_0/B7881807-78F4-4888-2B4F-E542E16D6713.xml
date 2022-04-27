@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7881807-78F4-4888-2B4F-E542E16D6713" name="COUNTRIES">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>8AA85C24-D6F4-8F2E-FF77-8732C9DDF4C4</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUNTRY ID" id="34289E54-C7F2-F345-03B0-14FAEBBF5B5B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="B28C2812-941E-018A-D35D-9CB72E949925">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>C212C448-BD42-68AA-CBDA-78A52322D4C0</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAPITAL" id="3512758F-3EC4-7FF9-23B5-3F4D3273AAA1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>DAF81606-98FB-C162-298E-810FF0702E6D</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POPULATION" id="7F16115D-38BE-2CFA-FF99-6F1819B0DDFA">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>37D3F2B3-68EA-9E43-2D9F-B944111F098B</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<constraintName>COUNTRIES_POP_CHECK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="population &gt; 0 "/>
+<implementationDef dbType="Oracle Database 12cR2" definition="population &gt; 0 "/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LANGUAGE" id="ECF02372-B8F5-128B-FC34-1FABD70D38FB">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>5DED5E1A-C347-9ACA-7129-4C383BAE3248</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CURRENCY" id="E7AFF888-D6B6-80A2-2EC0-BC50FFB6C40D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>8C8B4B3F-BF7C-9EE0-4B26-D9BFEEC593F5</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOMAIN" id="57B1F50E-B062-BDDE-4D8C-7115A7F02CE3">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>36E35D9B-F540-2879-5BA0-3860F026CC34</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODE" id="E461056D-EB3B-E746-7421-77BAAA3AEB2B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>79479D91-F0FC-3882-06A7-439277F97F24</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE CODE" id="82ABB62B-E1AA-1E15-3A40-7EC391E7CB04">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>3DD3AA54-5CBE-2F5A-0563-6166ED243032</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0375ADC3-13DE-6EAD-458D-1B868A1FC986" name="COUNTRIES PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>3E5E634A-D8B7-2AB6-C580-00B6A401B575</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34289E54-C7F2-F345-03B0-14FAEBBF5B5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

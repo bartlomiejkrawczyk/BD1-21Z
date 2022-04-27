@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POSITIONS_HISTORY" directorySegmentName="seg_0" id="F1BBBEF7-412F-13C8-406B-187E425A4B65">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:49 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>36125529-A9CC-2BFA-C4AE-47E8DACE5EB0</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_END" id="04D037D4-4643-3BA1-0505-2BCEBAEEADC5">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_START" id="31FA5872-82D4-7A57-E11D-7B1C3B1284FB">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="67CD1186-B99B-A3BD-B73D-4B6918AB1592">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSITION_ID" id="90FE31BA-9BAE-8238-7245-5B09872AD915">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PH_ID" id="AC618AB0-15FF-822D-BD47-B49FCDDFD635">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PH_PK" id="901FA76F-381B-9BEB-DDB9-71B8C2F7EE70">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PH_POS_FK" id="2E4C0CA3-34CE-5B18-DFDE-BF9A8E6D1223">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PH_EMP_FK" id="ECE5617A-15B2-3373-6C5C-391886E661C9">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PH_PK" id="7B3D9413-D778-2B78-F542-8ADB1E2F720F">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:50 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<existingIndex>901FA76F-381B-9BEB-DDB9-71B8C2F7EE70</existingIndex>
+<indexSegment>8090B583-6CAE-174B-D419-08886847537D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

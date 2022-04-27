@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD21236A-F113-F6A4-DACF-DDC4C7108B33" name="Regions">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>D5CA9AF1-EE02-666B-11CD-E00BFD5277BA</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="region_id" id="0274E95C-C2E9-64FC-8A91-FF679F9615E6">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="name" id="805AD4ED-44C2-9E53-94A5-BADB0ED6E528">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>619E48A6-5B60-DD91-1B99-D113358E23C6</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37FFAE50-4CB9-E902-2984-2E4CCF56F9F0" name="Regions_PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0274E95C-C2E9-64FC-8A91-FF679F9615E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

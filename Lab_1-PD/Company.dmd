@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Company" id="3AB5F84E-05E0-8A4A-3047-9178E6ACEF7C" version="3.5">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:04:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3AB5F84E-05E0-8A4A-3047-9178E6ACEF7C</designId>
+</OSDM_Design>

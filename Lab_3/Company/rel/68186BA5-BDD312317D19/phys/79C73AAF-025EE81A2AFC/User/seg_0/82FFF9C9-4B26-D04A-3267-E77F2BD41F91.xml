@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BKRAWCZ1" directorySegmentName="seg_0" id="82FFF9C9-4B26-D04A-3267-E77F2BD41F91">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjName>BKRAWCZ1</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:40:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<defTableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</defTableSpace>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="065BDB8D-41E1-628F-1C9E-A1FBABA683E0">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:40:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="C41F1A08-5D86-191C-A5A8-6131CB0EE367">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:40:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="8FCD18B2-6175-FA70-D7A7-1B32D2315273">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="8A4BE431-05B1-A349-B75C-D2063C5D4F11">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="1100707F-8FFB-D058-6E0C-520EB4D9D648">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem6" id="AECF9BA0-9EFB-5F9A-91B1-2BB9EA5F1F32">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem7" id="9ADAB33B-26D8-8BC5-2BF7-90827B35A57E">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem8" id="5BA86ED2-E4D6-DA0A-C4D9-58E3A28C9118">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem9" id="6B6420BE-E274-742F-998A-C6050A0C6CD6">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:47 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem10" id="5ADE3552-064D-B9DC-06A3-B7AE33BF67CC">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:47 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem11" id="A23322C7-3CA9-0AB2-CC29-8B710EDB9E6D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:02 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem12" id="B714A1EF-4206-C52D-58D5-D82C8E728C55">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:02 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem13" id="E5D0B326-DCB5-C993-2B64-4FEF4966A939">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem14" id="6A763621-53E3-2808-6787-5D36C24733CC">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem15" id="82402584-DCD8-7E02-E53C-D2032DBCEE97">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem16" id="420E64BD-42F9-0BBB-B2FF-4815667C3600">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem17" id="CF356E23-C8A9-5940-300A-BE2DF95A3639">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem18" id="A12E643F-9189-431F-5F69-A3F01DBB230D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:20 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem19" id="D1F5F05B-3537-B731-C6A2-D045A75C000C">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem20" id="52A6050E-31E2-8DF8-0CDD-DAC21BBF2127">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem21" id="9E5E6D1C-1F74-A6B5-6D2A-2FD2A0F7F672">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:43 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem22" id="B051FE92-C979-FFB7-2A30-B891A183E377">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:43 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem23" id="C550100B-82EB-0ADD-153B-4F0DD9525D09">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:49 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem24" id="91BFE649-D15D-EE02-1176-F99A5B965818">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:49 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem25" id="E50EC21F-6015-556D-74F7-870FFF2298F4">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem26" id="07DA549F-2ABB-DD87-9B4D-FD6F6FB0125E">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem27" id="40A37336-8B97-FFDE-5EA6-2CA99E4EE53F">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:13 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem28" id="E17A16B2-8824-AF85-7BA2-11D32C899E07">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:13 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem29" id="89D3197B-9C4B-590C-6CFD-24342DD6C6E4">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:22 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem30" id="0CB1A876-B2C4-6DBA-A7D9-4FBCC38FA425">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:22 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem31" id="66F1C09D-90A4-7AC2-CC36-E904EC1A651B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:29 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem32" id="0BA14910-55EA-A2A9-D2F6-F1AFA3576976">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:29 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

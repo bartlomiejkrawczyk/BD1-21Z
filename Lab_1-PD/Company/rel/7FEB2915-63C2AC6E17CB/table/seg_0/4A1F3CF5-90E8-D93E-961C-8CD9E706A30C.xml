@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A1F3CF5-90E8-D93E-961C-8CD9E706A30C" name="Countries">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>C11EC947-1639-A2AA-37A3-50FE84F828C8</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_id" id="CCE82579-1BCF-2D52-0AFD-8439F78F26E5">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="name" id="ED699906-4F14-3140-2CFA-D44155D1E138">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>0E3FDBA6-BFB0-C3A9-3237-A2B8253BAC86</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region_id" id="E1A906CF-E4D8-905C-05C8-B8902A42745B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECEFD0A9-2EDD-362F-803D-E68D8680988E" referredColumn="0274E95C-C2E9-64FC-8A91-FF679F9615E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15586333-6F1D-D43C-2E1F-E31285DC3086" name="Countries_PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CCE82579-1BCF-2D52-0AFD-8439F78F26E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="219969DD-C584-E05E-E818-68EB08CCA0BC" name="Countries_Regions_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>DC39513E-F9F2-5E94-D77C-61532099FE84</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A906CF-E4D8-905C-05C8-B8902A42745B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

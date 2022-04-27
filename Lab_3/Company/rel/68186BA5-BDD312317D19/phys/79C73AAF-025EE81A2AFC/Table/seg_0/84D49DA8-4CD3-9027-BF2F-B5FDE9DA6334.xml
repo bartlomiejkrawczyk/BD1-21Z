@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMP_STATUS" directorySegmentName="seg_0" id="84D49DA8-4CD3-9027-BF2F-B5FDE9DA6334">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>36125529-A9CC-2BFA-C4AE-47E8DACE5EB0</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="59E8399F-2C04-EA30-BA44-0C264639F318">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_ID" id="F090A8FD-596F-3AE1-91E3-6DEC1B2167D9">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_STATUS_PK" id="A1951BB3-2016-2293-5210-4321AF5506D3">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_STATUS_PK" id="F2371ED7-EE5E-4CB1-EA04-2BF963738BCF">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:15 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<existingIndex>A1951BB3-2016-2293-5210-4321AF5506D3</existingIndex>
+<indexSegment>8090B583-6CAE-174B-D419-08886847537D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

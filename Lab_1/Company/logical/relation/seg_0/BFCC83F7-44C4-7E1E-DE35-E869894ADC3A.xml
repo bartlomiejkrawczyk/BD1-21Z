@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Position Department FK" directorySegmentName="seg_0" id="BFCC83F7-44C4-7E1E-DE35-E869894ADC3A">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-26 09:09:10 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="C8819515-34C5-1620-C2EB-D3653A42F0DD" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98FAF48C-F8C3-29D2-EC75-840A35ABDDD9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB0482F8-B6C9-3E08-5AEC-B1831F29DE3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

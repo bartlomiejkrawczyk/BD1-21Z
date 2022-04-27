@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COUNTRIES" directorySegmentName="seg_0" id="8AA85C24-D6F4-8F2E-FF77-8732C9DDF4C4">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>36125529-A9CC-2BFA-C4AE-47E8DACE5EB0</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOMAIN" id="36E35D9B-F540-2879-5BA0-3860F026CC34">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POPULATION" id="37D3F2B3-68EA-9E43-2D9F-B944111F098B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_CODE" id="3DD3AA54-5CBE-2F5A-0563-6166ED243032">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LANGUAGE" id="5DED5E1A-C347-9ACA-7129-4C383BAE3248">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="79479D91-F0FC-3882-06A7-439277F97F24">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENCY" id="8C8B4B3F-BF7C-9EE0-4B26-D9BFEEC593F5">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_ID" id="9E1AD99B-0CC6-7DA0-5329-6F70F3D6E139">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="C212C448-BD42-68AA-CBDA-78A52322D4C0">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPITAL" id="DAF81606-98FB-C162-298E-810FF0702E6D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COUNTRIES_PK" id="2B0FBD9E-37A0-0EFB-D355-B36B4BD22CE2">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COUNTRIES_PK" id="3E5E634A-D8B7-2AB6-C580-00B6A401B575">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:49:32 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<existingIndex>2B0FBD9E-37A0-0EFB-D355-B36B4BD22CE2</existingIndex>
+<indexSegment>8090B583-6CAE-174B-D419-08886847537D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

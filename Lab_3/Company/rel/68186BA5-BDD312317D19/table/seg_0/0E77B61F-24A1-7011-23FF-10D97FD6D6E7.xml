@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E77B61F-24A1-7011-23FF-10D97FD6D6E7" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="EMP_PROJECTS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_PROJECTS</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PE_ID" id="42DA75ED-EEA7-0E2E-A2DB-8F11D8E2ADC4">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_PROJECTS</sourceObjSchema>
+<sourceObjName>PE_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="EMPLOYEE_ID" id="0EC7EE63-CAAF-395B-B9E7-EE154DB86F87">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_PROJECTS</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DBA5C63-DAC8-4155-B828-7AD84A70BE83" referredColumn="C1EF00D5-B2D4-DC5F-2AC1-C9E8BB0B8A55"/>
+</associations>
+</Column>
+<Column name="PROJECT_ID" id="86914C12-2883-10E4-DE11-BFEFA29E59D0">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_PROJECTS</sourceObjSchema>
+<sourceObjName>PROJECT_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBC1E0BB-719C-FD2D-6AB5-B0C35B6A2749" referredColumn="4A75A585-9F0A-1D9F-9A06-8AB33B4CAB6C"/>
+</associations>
+</Column>
+<Column name="DATE_START" id="ABCF2C17-A68E-E0AA-6A75-9DCC06FB9C0B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_PROJECTS</sourceObjSchema>
+<sourceObjName>DATE_START</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END" id="ABE038E8-CCCF-71A1-1A5F-81D4F595A8BB">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_PROJECTS</sourceObjSchema>
+<sourceObjName>DATE_END</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF568B38-5E72-9CF9-BE6C-F2281461A032" name="PE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DA75ED-EEA7-0E2E-A2DB-8F11D8E2ADC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC7C2D3-FECA-7924-370D-11BBE413E2C7" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="PE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>PE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DA75ED-EEA7-0E2E-A2DB-8F11D8E2ADC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1ED40E6-1976-7DAF-D459-6BD309005A8D" name="SYS_C00272497">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC7EE63-CAAF-395B-B9E7-EE154DB86F87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B817E8D-BCE0-EFEB-08F5-717604DE2F61" name="SYS_C00272498">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:09 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86914C12-2883-10E4-DE11-BFEFA29E59D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

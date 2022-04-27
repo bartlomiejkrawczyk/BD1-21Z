@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C00272498" directorySegmentName="seg_0" id="81A05082-B1BA-9ECF-D544-DF0884FD608A">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:58:05 UTC</createdTime>
+<generatorID>BBC1E0BB-719C-FD2D-6AB5-B0C35B6A2749</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="68186BA5-7E60-DEB3-7EEA-BDD312317D19" value="true"/>
+</engineerTo>
+<sourcePk>20F15ACF-598D-12D2-69D0-C7FCE9F28916</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE4BAD96-2570-ACFC-5994-5F3C9B607AA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A46C539-0F39-25B6-ECAF-C2E1597FD536</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

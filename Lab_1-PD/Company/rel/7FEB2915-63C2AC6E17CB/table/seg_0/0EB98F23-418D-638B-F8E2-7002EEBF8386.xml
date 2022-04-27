@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EB98F23-418D-638B-F8E2-7002EEBF8386" name="Locations">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<generatorID>EDB640EF-2A67-310D-16F9-BE84C4CC75A9</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="D114E54D-133F-4380-C536-D0EA221CAA96">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="street" id="36414FA4-1C7E-21D9-B340-4C433E5D288F">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<generatorID>BF9BF2B3-196C-B48F-7B59-D5A9DFD27450</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="49A79B08-3879-95E0-E9B3-A6BA86C500F1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<generatorID>32972500-8B29-97C4-C8A1-67258BFB6338</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="6093AA39-F424-4390-F071-668EC13029D8">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<generatorID>560C0CDE-3363-1221-F4B1-36018B5F3757</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="EE79846B-8E72-54C8-41E6-2652748B34E8">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:20:17 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9BA1FFF-C388-195C-447E-AE880C9DA149" referredColumn="CCE82579-1BCF-2D52-0AFD-8439F78F26E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C400AEF2-A9D9-1118-C05A-2D84485AFF8C" name="Locations_PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:17:41 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D114E54D-133F-4380-C536-D0EA221CAA96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4D8010F-2D1E-4995-A74B-A97F9F5B095A" name="Locations_Countries_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:21:01 UTC</createdTime>
+<generatorID>0576740D-7978-9E00-99C2-BB21C93F9361</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE79846B-8E72-54C8-41E6-2652748B34E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

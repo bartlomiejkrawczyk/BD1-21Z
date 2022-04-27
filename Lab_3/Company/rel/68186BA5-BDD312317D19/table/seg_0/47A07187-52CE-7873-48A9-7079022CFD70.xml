@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47A07187-52CE-7873-48A9-7079022CFD70" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="EMP_GRADES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_GRADES</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:02 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EG_ID" id="38D52B7B-1623-0650-AA9B-13218359460F">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_GRADES</sourceObjSchema>
+<sourceObjName>EG_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="EMPLOYEE_ID" id="E4996729-1B04-661F-EF0A-6B605946777F">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_GRADES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0B915BD-ADE5-CD42-C185-4BD50AA9FC35" referredColumn="C1EF00D5-B2D4-DC5F-2AC1-C9E8BB0B8A55"/>
+</associations>
+</Column>
+<Column name="GRADE_ID" id="4E58092C-0D8E-B352-52AF-725E56DC4B72">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_GRADES</sourceObjSchema>
+<sourceObjName>GRADE_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4906E0F4-2061-6183-FA8F-2D252A80D194" referredColumn="D480EC62-8636-B7A1-79D5-15281799F7CF"/>
+</associations>
+</Column>
+<Column name="INSPECTION_DATE" id="C4489F10-CD3C-8D77-342F-004D54372CA8">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_GRADES</sourceObjSchema>
+<sourceObjName>INSPECTION_DATE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIOD" id="483C3F55-D354-9571-0F53-224D0629D3A2">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMP_GRADES</sourceObjSchema>
+<sourceObjName>PERIOD</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1758998-E53C-57DD-FC52-E0F68A53F296" name="EMP_GRADE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_GRADE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D52B7B-1623-0650-AA9B-13218359460F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E20ECF-5FE7-DB60-3E9F-0DAEB2701672" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="EMP_GRADE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>EMP_GRADE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38D52B7B-1623-0650-AA9B-13218359460F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="652A77C4-6FFA-D32A-4993-7C9B4A0D3BE4" name="SYS_C00272509">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4996729-1B04-661F-EF0A-6B605946777F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D86AA54E-3E2F-B226-D0DF-A805AE2072A1" name="SYS_C00272510">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:03 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E58092C-0D8E-B352-52AF-725E56DC4B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

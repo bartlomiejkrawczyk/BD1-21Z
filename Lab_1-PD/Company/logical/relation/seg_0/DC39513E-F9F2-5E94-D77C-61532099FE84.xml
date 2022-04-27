@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Countries Regions FK" directorySegmentName="seg_0" id="DC39513E-F9F2-5E94-D77C-61532099FE84">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:20:55 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="7FEB2915-8641-C2BD-8918-63C2AC6E17CB" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5CA9AF1-EE02-666B-11CD-E00BFD5277BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C11EC947-1639-A2AA-37A3-50FE84F828C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

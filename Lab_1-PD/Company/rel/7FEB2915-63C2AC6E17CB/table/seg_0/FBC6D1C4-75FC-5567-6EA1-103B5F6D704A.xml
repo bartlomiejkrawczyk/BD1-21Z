@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBC6D1C4-75FC-5567-6EA1-103B5F6D704A" name="Departments">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<generatorID>81F596C7-D8B3-87F3-1AD2-8303DF611D7E</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="department_id" id="4D40659F-8000-22D7-A685-FB147A6FC922">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="name" id="F288E5DE-C373-3467-5BF2-8CF7E1D0FEF1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<generatorID>5E543E7D-0A5B-E920-CA6B-20B9C739B0E7</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_id" id="91C19CA4-2B6B-8122-5D71-B1F684087108">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A975BB79-A084-B406-C18B-229794527CF4" referredColumn="A616E528-08E7-9016-BC72-7872E478DC2B"/>
+</associations>
+</Column>
+<Column name="location_id" id="8BF0AB37-F80E-09F3-0C08-91E4FDB3A6BE">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BF89536-36C4-F4EA-83AE-0FE732C45441" referredColumn="D114E54D-133F-4380-C536-D0EA221CAA96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E783411E-1D3B-D411-9B3D-4903062501A1" name="Departments_PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4D40659F-8000-22D7-A685-FB147A6FC922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E94BD659-C7AC-F009-4D93-5CA083FB5C09" name="Departments__IDX">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0EE09683-B07F-C3BF-8153-59BE7D0DB08A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="91C19CA4-2B6B-8122-5D71-B1F684087108"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5300B599-1B8C-3F92-DFE2-AF34BBC86EBD" name="Departments_Employees_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<generatorID>0EE09683-B07F-C3BF-8153-59BE7D0DB08A</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91C19CA4-2B6B-8122-5D71-B1F684087108"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFCADF8-E7A6-51E8-8DB1-D56D00777B4B" name="Departments_Locations_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<generatorID>5E003185-1D5E-B78C-08D6-2E2ED8B318D6</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF0AB37-F80E-09F3-0C08-91E4FDB3A6BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="325E0BFD-35DC-F478-7622-759010881D69" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="GRADES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>GRADES</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRADE_ID" id="D480EC62-8636-B7A1-79D5-15281799F7CF">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>GRADES</sourceObjSchema>
+<sourceObjName>GRADE_ID</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>1000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="GRADE" id="016DBCD1-B299-BAA2-5F14-3183FB777723">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>GRADES</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="3089AA5E-C727-0243-FD88-2684716B8C75">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>GRADES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B18FE3B-B35E-E53B-73E3-C07A1B4DB40C" name="GRADE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>GRADE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D480EC62-8636-B7A1-79D5-15281799F7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D5BEADC-440E-D73F-4148-77F2D7D0278A" schemaObject="8D1CF520-3E7D-EBC0-C7A7-21E748058255" name="GRADE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>BKRAWCZ1</sourceObjSchema>
+<sourceObjName>GRADE_PK</sourceObjName>
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:50:35 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D480EC62-8636-B7A1-79D5-15281799F7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

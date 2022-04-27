@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1FA31E2-DBB3-9E72-6FAD-6C3DFB31DB45" name="Employees">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>50777048-9A52-8AD2-58BE-6816882F3103</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="A616E528-08E7-9016-BC72-7872E478DC2B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="first_name" id="6F7F02AF-8717-2785-89FA-DDE279C1F1DC">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>8AD8244B-8D2B-C1CB-8D0F-D58E30A855C4</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="BAF1937E-6AA7-B77E-FADD-4D711248CC68">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>0064650F-88BC-2A43-69A8-5B14A54E839C</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="BCAD52CB-C6A1-6098-6C0C-F6BEED9B55A8">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>C4770D26-076A-B2D9-49E1-E0AFC6BFCB43</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254 CHAR</dataTypeSize>
+<ownDataTypeParameters>254 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="E967F3F7-F085-DD1B-79CC-FD5B5C5B5F09">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>61998AB4-1E89-9E47-2321-09FA38E7719A</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="1C7D2B73-3EC9-68A9-35C8-2FDF40D210B1">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>1A6663B2-2F20-FF27-0A4B-12C4781DFFA8</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="64D292BE-967D-1E25-BCA7-B844C3C2248B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>6928DD04-742A-4B2F-A9AA-61A88D0F6D68</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager_id" id="BEFC49BB-331B-CC6F-D8D0-1153C8147507">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="303A4EFE-F311-2B98-DA82-DE90D5E1B36D" referredColumn="A616E528-08E7-9016-BC72-7872E478DC2B"/>
+</associations>
+</Column>
+<Column name="current_position_id" id="5C311B74-DC86-6535-95A3-F12119942B47">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5AA4A46-266C-F955-9B64-6FC3FF6E49BC" referredColumn="B5217D75-EED8-BD65-D593-D94BC9F8DECF"/>
+</associations>
+</Column>
+<Column name="department_id" id="86D14E67-B4C5-ECF2-153E-F57AA4CCB58D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A317747-5C67-2CAC-77C4-6B91AC96D779" referredColumn="4D40659F-8000-22D7-A685-FB147A6FC922"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5F832B1-B38D-F5D8-1654-46C1B42FFB66" name="Employees_PK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A616E528-08E7-9016-BC72-7872E478DC2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA416FC3-E84F-B3CB-0B4A-6972240E9FA4" name="Employees_Employees_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>711B91CF-C191-ED7A-8C11-33457FE50BAB</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEFC49BB-331B-CC6F-D8D0-1153C8147507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5941950-405A-0DDE-928C-82405E39DEF3" name="Employees_Position_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:24:36 UTC</createdTime>
+<generatorID>979248B1-81DD-5EA6-75E9-55AE80C053B0</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C311B74-DC86-6535-95A3-F12119942B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A441FFE-E517-727F-8B9A-FE86ED61462E" name="Employees_Departments_FK">
+<createdBy>bartek</createdBy>
+<createdTime>2021-10-29 16:26:26 UTC</createdTime>
+<generatorID>36259160-490F-2ACE-7197-99D251F5ACA4</generatorID>
+<ownerDesignName>Company</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D14E67-B4C5-ECF2-153E-F57AA4CCB58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROJECTS" directorySegmentName="seg_0" id="1A8601B0-7784-235E-C526-A7B71504FA4A">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:13 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>36125529-A9CC-2BFA-C4AE-47E8DACE5EB0</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_START" id="0778C4C0-CCEA-2515-3DD9-1C74F65E5A0B">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="2895B0C2-51D0-4B90-FE4A-BA59AEB75779">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROJECT_ID" id="4A75A585-9F0A-1D9F-9A06-8AB33B4CAB6C">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DATE_END" id="642A69C3-D942-56AF-4F9D-59C167BC8D61">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTIMATED_BUDGET" id="6A3CF36A-83F8-84F4-D601-E2CA98D4556D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="875A7DDC-57B3-FCED-6AE9-15F8FA4BC48A">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USED_BUDGET" id="B9DC0BD5-E60B-6898-DC8E-8C758ABB949D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNER" id="DE4B1342-7557-7FEA-F15E-9E536E5E615D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROJECTS_PK" id="DA5524B6-0CEA-4580-7ADE-1248B615E23D">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<schemaObject>8D1CF520-3E7D-EBC0-C7A7-21E748058255</schemaObject>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C00272493" id="3D9F78B4-142F-97E0-ECD0-D68AF16DFE42">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C00272492" id="D66F05FD-FC4B-14E2-F50B-B51E56BABBB2">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROJECTS_PK" id="FB323206-EE4F-40A8-A000-5F57DB4B8546">
+<createdBy>bartek</createdBy>
+<createdTime>2021-11-09 08:51:14 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<segment>8090B583-6CAE-174B-D419-08886847537D</segment>
+<tableSpace>3A562DDE-FDBC-1319-34D0-767566EFCA0C</tableSpace>
+<existingIndex>DA5524B6-0CEA-4580-7ADE-1248B615E23D</existingIndex>
+<indexSegment>8090B583-6CAE-174B-D419-08886847537D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
